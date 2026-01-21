@@ -37,7 +37,7 @@ export default function AboutUs() {
             key={i}
           >
             <div className="about-img">
-              <img src={sec.img} alt={sec.title} role="img" />
+              <img src={sec.img} alt={sec.title} />
             </div>
             <div className="about-text">
               <h2>{sec.title}</h2>
