@@ -950,7 +950,7 @@ input.form-control:focus, select.form-select:focus, textarea.form-control:focus 
         padding: 15px 20px;
     }
     .card-modern, .card-pro {
-        width: 100%; /* تأخذ العرض الكامل في الحاوية الخاصة بها */
+        width: 100%; 
         max-width: 350px;
         margin: 0 auto 20px;
     }
@@ -958,7 +958,7 @@ input.form-control:focus, select.form-select:focus, textarea.form-control:focus 
 
 @media (max-width: 768px) {
   .hero-section {
-      height: auto;
+      height: 100vh;
       padding: 120px 20px; 
   }
   .aboutTitle {
